@@ -1,0 +1,367 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+	font-weight: 800;
+}
+
+h2, h5{
+	font-weight: 700;
+}
+
+h3{
+	font-weight: 600;
+}
+
+p.small-text{
+	font-size: 13px;
+	font-weight: 600;
+}
+
+p.big-text{
+	font-size: 17px;
+	font-weight: 600;
+}
+
+.b-radius{
+	border-radius: 10px;
+}
+
+#circle-form select{
+	border: 3px solid #0000;
+  	background:
+  	linear-gradient(white,white) padding-box,
+    linear-gradient(to top right, #08FCFF, #7D42FF) border-box;
+}
+/*HEADER SECTION=================================================*/
+.hero-1,
+.hero-2{
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1024px;
+}
+
+.hero-1{
+	background-image: url("../images/desktop/hero-left.png");
+}
+
+.hero-2{
+	background-image: url("../images/desktop/hero-right.png");
+}
+
+#header span .font-weight-1{
+	font-size: 20px;
+	font-weight: 900;
+	color: black;
+}
+
+#header h2{
+	width: 50%;
+}
+
+#header .position-absolute{
+	top: 50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+}
+/*END OF HEADER SECRION==========================================*/
+/*FREE EVENTS SECTION============================================*/
+#events a{
+	font-weight: 600;
+	font-size: 18px;
+}
+/*END OF FREE EVENTS SECTION=====================================*/
+/*OUR COMMUNITY SECTION==========================================*/
+#community h1{
+	font-size: 2.3em;
+}
+
+#community p{
+	font-size: 18px;
+	font-weight: 600;
+}
+/*END OF OUR COMMUNITY SECTION===================================*/
+/*SCHOLARSHIP SECTION============================================*/
+#scholarship{
+	background: #D8D8D8;
+}
+
+#scholarship a{
+	font-weight: 600;
+	font-size: 18px;
+}
+/*END OF SCHOLARSHIP SECTION=====================================*/
+/*CIRCLE FORM SECTION============================================*/
+.hero-3{
+	background-image: url("../images/desktop/hero-3.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#circle-form .border-color-input{
+	border: 1px solid #068BE9;
+}
+
+#circle-form select.form-group:focus{
+	outline: none;
+}
+
+#circle-form .no-arrow{
+	appearance: none;
+}
+
+#circle-form .position-absolute{
+	top: 30%;
+	right: 5%;
+}
+
+#circle-form option{
+	font-weight: 500;
+}
+/*END OF CIRCLE FORM SECTION=====================================*/
+/*SUCCESS SECTION================================================*/
+#ellipse .position-absolute{
+	top: 120%;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+#ellipse .card-ellipse{
+	border: 4px solid #0000;
+  	background:
+  	linear-gradient(#F8F8F8,#F8F8F8) padding-box,
+    linear-gradient(to top right, #08FCFF, #7D42FF) border-box;
+}
+/*END OF SUCCESS SECTION=========================================*/
+/*CAROUSEL SECTION===============================================*/
+#carousel .bg-color{
+	background: #243F60;
+}
+
+#carousel ol li{
+	background-color: #243F60;
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	border: 2px solid #FAAD01;
+}
+
+#carousel .carousel-indicators{
+	bottom: -8%;
+}
+
+#carousel .position-absolute{
+  	top: 50%;
+  	left: 0;
+  	right: 0;
+  	transform: translateY(-50%);
+}
+
+#carousel p{
+	font-size: 140px;
+	font-weight: 700;
+}
+/*END OF CAROUSEL SECTION========================================*/
+/*FOOTER SECTION=================================================*/
+#footer{
+	margin-top: 8%;
+	background: #243F60;
+}
+
+#footer p,
+#footer a{
+	font-weight: 400;
+}
+
+#footer .padding-left{
+	padding-left: 4%;
+}
+
+#footer .bottom-content p{
+	font-size: 14px;
+}
+/*END OF FOOTER SECTION==========================================*/
+/*END OF DESKTOP VERSION===============================================================================================================================*/
+/*MOBILE VERSION=================================================*/
+@media screen and (max-width: 425px){
+	#events h2,
+	#community h1,
+	#ellipse h2,
+	#ellipse h3,
+	#carousel h1,
+	#carousel h2
+	{
+		font-size: 1.5em;
+	}
+
+	#scholarship h2,
+	#circle-form h2{
+		font-size: 1.4em;
+	}
+
+	#scholarship .first-paragraph,
+	#circle-form p{
+		font-size: 20px;
+	}
+/*MOBILE HEADER SECTION==========================================*/
+	.hero-1,
+	.hero-2{
+		height: 400px;
+	}
+
+	#header .header-content{
+		color: black;
+	}
+
+	#header h2{
+		font-size: 1.3em;
+		width: 100%;
+	}
+
+	#header h1{
+		font-size: 1.6em;
+	}
+
+	#header i{
+		color: #243F60;
+	}
+/*END OF MOBILE HEADER SECTION===================================*/
+/*MOBILE EVENTS SECTION========================================= */
+	#events h3{
+		font-size: 1.05em;
+	}
+/*END OF MOBILE EVENTS SECTION===================================*/
+/*COMMUNITY MOBILE SECTION=======================================*/
+	#community{
+		margin: 0;
+	}
+
+	#community p{
+		font-size: 14px;
+		font-weight: 400;
+	}
+/*END OF COMMUNITY MOBILE SECTION================================*/
+/*SCHOLARSHIP MOBILE SECTION=====================================*/
+	#scholarship{
+		background: none;
+	}
+/*END OF SCHOLARSHIP MOBILE SECTION==============================*/
+/*CIRCLE FORM MOBILE SECTION=====================================*/
+		#circle-form .hero-3{
+		background-image: none;
+		background: #243F60;
+		height: 530px;
+	}
+
+	#circle-form button{
+		width: 40%;
+	}
+/*END OF CIRCLE FORM MOBILE SECTION==============================*/
+/*SUCCESS MOBILE SECTION=========================================*/
+	#ellipse .rotate{
+	    display: flex;
+		justify-content: center;
+	    transform: rotate(-90deg);
+	    height: 280px;
+	    margin-top: 140%;
+	    margin-left: -7%;
+	}
+/*END OF SUCCESS MOBILE SECTION==================================*/
+/*CAROUSEL MOBILE SECTION========================================*/
+	#carousel{
+		margin-top: 110%;
+	}
+
+	#carousel .carousel-item h2{
+		font-size: 1.1em;
+		font-weight: 600;
+	}
+
+	#carousel p{
+		font-size: 30px;
+	}
+
+	#carousel ol li{
+		height: 20px;
+		width: 20px;
+	}
+
+	#carousel .carousel-indicators{
+		bottom: -13%;
+	}
+/*END OF CAROUSEL MOBILE SECTION=================================*/
+}
+/*END OF MOBILE VERSION==========================================*/
+/*TABLET VERSION==========================================================================================================================*/
+@media screen and (min-width: 426px) and (max-width: 768px){
+	#events h2,
+	#community h1,
+	#carousel h2{
+		font-size: 1em;
+	}
+
+	#events h2.font,
+	#scholarship h2,
+	#ellipse h2,
+	#carousel h1,
+	#carousel h2.font
+	{
+		font-size: 1.5em;
+	}
+
+	#events p,
+	#community p,
+	#scholarship .card-img-overlay p{
+		font-size: 10px;
+	}
+/*TABLET HEADER SECTION==========================================*/
+	#header h2{
+		font-size: 1.3em;
+	}
+
+	#header h1{
+		font-size: 1.8em;
+	}
+/*END OF TABLET HEADER SECTION===================================*/
+/*TABLET EVENTS SECTION==========================================*/
+	#events a{
+		font-size: 5px;
+	}
+
+	#events h3{
+		font-size: 2em;
+	}
+/*END OF TABLET EVENTS SECTION===================================*/
+/*SCHOLARSHIP TABLET SECTION=====================================*/
+	#scholarship .card-img-overlay h2{
+		font-size: 0.8em;
+	}
+
+	#scholarship .card-img-overlay a{
+		font-size: 1.2em;
+	}
+/*END OF SCHOLARSHIP TABLET SECTION==============================*/
+/*CAROUSEL TABLET SECTION========================================*/
+	#carousel{
+		margin-top: 125%;
+	}
+
+	#carousel .carousel-indicators{
+		bottom: -12%;
+	}
+
+	#carousel p{
+		font-size: 4em;
+	}
+/*END OF CAROUSEL TABLET SECTION=================================*/
+/*FOOTER MOBILE SECTION==========================================*/
+	#footer .padding-left{
+		padding-left: 2%;
+	}
+/*END OF FOOTER MOBILE SECTION===================================*/
+}
+/*END OF TABLET VERSION==========================================*/
+/*END OF CODE====================================================================================================*/
