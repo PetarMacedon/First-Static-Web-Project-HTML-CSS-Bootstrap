@@ -5,6 +5,7 @@
 - #### HTML
 - #### CSS
 - #### Bootstrap
+- #### Figma
 ## Website Demonstration
 - Landing page sections:
   - Header, Events, Community, Scholarship, Circle Form, Success, Carousel, Footer (Contact) section
