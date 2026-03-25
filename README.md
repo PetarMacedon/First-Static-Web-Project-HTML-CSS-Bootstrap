@@ -2,17 +2,24 @@
 ## Description
 - My first solo web project was created after learning HTML, CSS, and Bootstrap. This is my first responsive webpage, available on mobile, tablet, and desktop versions. It's a static webpage with 8 sections and is intended for people who want to start or change their careers in IT technologies. Anyone can choose their favorite academy and jumpstart their career.
 ## Languages Used
-- #### HTML
-- #### CSS
-- #### Bootstrap
-- #### Figma
+- HTML
+- CSS
+- Bootstrap
+- Figma
 ## Website Demonstration
 - Landing page sections:
-  - Header, Events, Community, Scholarship, Circle Form, Success, Carousel, Footer (Contact) section
+  - Header
+  - Events
+  - Community
+  - Scholarship
+  - Circle Form
+  - Success
+  - Carousel
+  - Footer (Contact) section
 ## Live demo
-- [Academy project - demo](https://petarmacedon.github.io/First-Static-Web-Project-HTML-CSS-Bootstrap/)
+- **[Academy project - demo](https://petarmacedon.github.io/First-Static-Web-Project-HTML-CSS-Bootstrap/)**
 ## Code
-- [Code of academy project](https://github.com/PetarMacedon/First-Static-Web-Project-HTML-CSS-Bootstrap/blob/master/index.html)
+- [Full project on GitHub](https://github.com/PetarMacedon/First-Static-Web-Project-HTML-CSS-Bootstrap)
   
 ![image](https://user-images.githubusercontent.com/129891106/233481386-c41c517c-f18f-4486-8463-2288287b0ded.png)
 ![image](https://user-images.githubusercontent.com/129891106/233482426-b52eff7b-a247-4904-a7c9-2f63239169d0.png)
