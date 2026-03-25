@@ -17,7 +17,7 @@
   - Carousel
   - Footer (Contact) section
 ## Live demo
-- **[CreativeHub Webpage - demo](https://petarmacedon.github.io/First-Static-Web-Project-HTML-CSS-Bootstrap/)**
+- **[CreativeHub Webpage demo](https://petarmacedon.github.io/First-Static-Web-Project-HTML-CSS-Bootstrap/)**
 ## Code
 - [Full project on GitHub](https://github.com/PetarMacedon/First-Static-Web-Project-HTML-CSS-Bootstrap)
 
