@@ -9,6 +9,8 @@
 ## Website Demonstration
 - Landing page sections:
   - Header, Events, Community, Scholarship, Circle Form, Success, Carousel, Footer (Contact) section
+## Link
+- https://petarmacedon.github.io/First-Static-Web-Project-HTML-CSS-Bootstrap/
   
 ![image](https://user-images.githubusercontent.com/129891106/233481386-c41c517c-f18f-4486-8463-2288287b0ded.png)
 ![image](https://user-images.githubusercontent.com/129891106/233482426-b52eff7b-a247-4904-a7c9-2f63239169d0.png)
